@@ -1,0 +1,24 @@
+{
+	"zh": {
+		"global": {
+			"name": "global"
+		},
+		"index": {
+			"name": "index"
+		},
+		"login": {
+			"name": "login"
+		}
+	},
+	"en": {
+		"global": {
+			"name": "en-global"
+		},
+		"index": {
+			"name": "en-index"
+		},
+		"login": {
+			"name": "en-login"
+		}
+	}
+}

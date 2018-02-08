@@ -1,0 +1,59 @@
+{
+    "project" : "vGulp",   
+    "src": {
+        "ejs": "src/ejs", 
+        "sass": "src/sass",
+        "images": "src/images",
+        "js": "src/js",
+        "css": "src/css", 
+        "source": "src/source", 
+        "data": "language/data.json" 
+    },
+    "dist": {
+        "html": "html",
+        "js": "static/js",
+        "css": "static/css",
+        "images": "static/images",
+        "source": "static/source"
+    },
+    "localserver" : {
+        "baseDir" : "src",
+        "port" : "8081",
+        "proxy": false,
+        "target": "127.0.0.1"
+    },
+    "lang":["zh","en"],
+    "data_use": 1,
+    "displayInfo": false,
+    "pkg": {
+        "author":"",
+        "description":"",
+        "version":"1.0.0",
+        "homepage":"#",
+        "license":""
+    },
+    "replaceWord": {
+        "html": {
+            "origin": "../",
+            "dist": "../../static/"
+        },
+        "js": {
+            "origin": "",
+            "dist": ""
+        },
+        "css": {
+            "origin": "",
+            "dist": ""
+        }
+    },
+    "concatCssFiles": {
+        "filename": "init.min.css",
+        "folder": "common",
+        "files": ["init.css","header.css"]
+    },
+    "concatJsFiles": {
+        "filename": "global.min.js",
+        "folder": "common",
+        "files": ["b.js","a.js"]
+    }      
+}

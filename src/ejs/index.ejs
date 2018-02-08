@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include('common/head.inc') %>
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        <%# 额外的内容，可以根据中英文不同来添加不同的内容,目录自定义 %>
+        <% if(_lang='zh'){ %>	
+        	<%- include('extra/zh.css') %>
+        <% } %>
+    </style>
+</head>
+<body>
+    <div id="app">
+        <p>这是全局:<%= global.name %></p>
+        <p>这是当前页:<%= name %></p>
+        <a href="login.html">login</a>
+    </div>
+    <%- include('common/script.inc') %>
+</body>
+</html>
