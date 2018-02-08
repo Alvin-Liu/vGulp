@@ -1,6 +1,6 @@
 > 项目不打算继续更新了，是很早之前写的，有很多bug，不推荐使用。本来已经删除了，放上来主要为了给自己留个纪念
 
-vGulp介绍：[前端自动化工具vGulp](http://www.limon.space/2017/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7vGulp/ "前端自动化工具vGulp")
+vGulp介绍：[前端自动化工具vGulp](https://github.com/Alvin-Liu/Blog/issues/3 "前端自动化工具vGulp")
 
 ## 关于vGulp
 
